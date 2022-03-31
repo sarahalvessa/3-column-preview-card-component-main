@@ -1,0 +1,191 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+
+h1
+{
+    font-family: 'Red Hat Display', sans-serif;
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 26px;
+    margin-left: 30px;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.836);
+    line-height: 1.5;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: -10px 40px 0 30px;
+}
+
+.card-1
+{
+    background-color:  hsl(31, 77%, 52%);
+    width: 90%;
+    margin: auto;
+    height: 315px;
+    margin-top: 30px;
+    border-radius:5px 5px 0 0;
+}
+
+.card-1 img
+{
+    margin: 30px 0 -20px 30px;
+}
+
+
+.card-1 footer a
+{
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 30px;
+    padding: 13px 30px;
+    position: absolute;
+    margin:20px 0 0 30px;
+    color:  hsl(31, 77%, 52%);
+}
+
+.card-2
+{
+    background-color: hsl(184, 100%, 22%);
+    width: 90%;
+    margin: auto;
+    height: 315px;
+    margin-top: 0;
+}
+
+.card-2 img
+{
+    margin: 30px 0 -20px 30px;
+}
+
+.card-2 footer a
+{
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 30px;
+    padding: 13px 30px;
+    position: absolute;
+    margin:20px 0 0 30px;
+    color: hsl(184, 100%, 22%);;
+}
+
+.card-3
+{
+    background-color: hsl(179, 100%, 13%);
+    width: 90%;
+    margin: auto;
+    height: 315px;
+    margin-bottom: 30px;
+    border-radius: 0 0 5px 5px;
+}
+
+.card-3 img
+{
+    margin: 30px 0 -20px 30px;
+}
+
+.card-3 footer a
+{
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 30px;
+    padding: 13px 30px;
+    position: absolute;
+    margin:20px 0 0 30px;
+    color: hsl(179, 100%, 13%); 
+}
+
+
+
+@media screen and (min-width:996px){
+
+    p
+    {
+        margin-right: 20px;
+    }
+
+    h1
+    {
+        font-size: 22px;
+        margin-top: 40px;
+    }
+
+    img
+    {
+        height: 30px;
+    }
+
+    .card-1
+    {
+       width: 20%;
+       height: 400px;
+       float: left;
+       margin-left:20%;
+       margin-top: 0;
+       border-radius: 5px 0 0 5px;
+    }
+
+    .card-1 footer a
+    {
+        margin-top: 75px;
+    }
+
+    .card-1 footer a:hover{
+        background-color:hsla(0, 0%, 95%, 0.527);
+    }
+
+    .card-1 footer a{
+        transition: background .2s ease-in-out;
+    }
+
+    .card-2
+    {
+        width:20%;
+        margin-top: 180px;
+        height: 400px;
+        margin-top: 120px;
+    }
+
+    .card-2 footer a
+    {
+        margin-top: 75px;
+    }
+
+    .card-2 footer a:hover{
+        background-color:hsla(0, 0%, 95%, 0.527);
+    }
+
+    .card-2 footer a{
+        transition: background .2s ease-in-out;
+    }
+
+    .card-3
+    {
+        width:20%;
+        margin-top: 180px;
+        height: 400px;
+        margin-top: -400px;
+        float: right;
+        margin-right: 20%;
+        border-radius: 0 5px 5px 0;
+    }
+
+    .card-3 footer a
+    {
+        margin-top: 75px;
+        float: right;
+    }
+
+    .card-3 footer a:hover{
+        background-color:hsla(0, 0%, 95%, 0.527);
+    }
+
+    .card-3 footer a{
+        transition: background .2s ease-in-out;
+    }
+    }
